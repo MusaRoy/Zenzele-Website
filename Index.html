@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenzele Tyres Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #304;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a6f7 3px solid;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .button {
+            background: linear-gradient(145deg, #f0f0f0, #cacaca);
+            border: none;
+            padding: 10px 20px;
+            margin-right: 20px;
+            font-size: 16px;
+            color: #333;
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px #aaa;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: absolute;
+            top: 30px; /* 30px up */
+            right: 20px; /* Align to the right */
+            background-color: #E5AA70; /* Fawn color */
+        }
+
+        .button:active {
+            transform: translateY(2px);
+            box-shadow: 1px 1px 3px #888;
+        }
+
+        .posts {
+            margin-top: 40px;
+        }
+
+        .post {
+            background: #000080;
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+        }
+
+        .post h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .post p {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .about-us {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .about-us img {
+            margin-right: 20px;
+        }
+
+        .about-us p {
+            flex: 1;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .image-box {
+            width: 500px;
+            height: 400px;
+            background: #ddd;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            gap: 10px;
+            background-color: lightblue;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .social-media {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #fff;
+            background: #a52a2a;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+
+        .social-media a:hover {
+            background: #8b4513;
+        }
+
+        .google-maps {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            .image-box {
+                width: 100%;
+                height: auto;
+            }
+
+            .about-us {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-us img {
+                margin: 0 0 20px 0;
+            }
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #304;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Zenzele Tyre Services</h1>
+            <a href="zenzele.business.profile.pdf" class="button" target="_blank">Company Profile</a>
+        </div>
+    </header>
+
+    <div class="container posts">
+        <div class="post about-us">
+            <h2>About Us</h2>
+            <img src="zenzele.logo.jpg" alt="Zenzele Logo">
+            <p>Zenzele Tyre Services (PTY) LTD was established in 2018 founded by Eric Taba and Lucky Magatsela. Since establishment, we are OTR (Over the road) Tyre services, tyre repair, Strip and fit. Tyre supply and Wheel Rims/Mags supply has become our speciality through tyre services activities. We have managed to offer complementary services such as Battery supply. We are a company committed to exceptional quality and we have made it part of our identity. This is achieved through the dedication of our highly trained and experienced employees who are always motivated.</p>
+        </div>
+
+        <div class="post our-services">
+            <h2>Our Services</h2>
+            <img src="zenzele.services.png" alt="Our Services">
+        </div>
+
+        <div class="post contact-us">
+            <h2>Contact Us</h2>
+            <img src="zenzele.contacts.png" alt="Contact Us">
+            <p>STAND NO : 78<br>
+            TUKAKGOMO<br>
+            P O Box 175<br>
+            STEELPOORT<br>
+            1133<br>
+            <br>
+            Email: ZENZELETYRESERVICES@GMAIL.COM<br>
+            Phone: (+27)76 827 3370 / (+27)72 416 7736.</p>
+        </div>
+
+        <div class="post our-clientele">
+            <h2>Our Clientele</h2>
+            <p>Our Clients includes local mining supply and services companies. 
+            <br> 
+               This we attribute to service quality. 
+            <br>
+               We welcome you as our next client. 
+            <br>
+               Zenzele Tyre services (Where client service meets true quality and meaning).</p>
+        </div>
+
+        <div class="post our-portfolio">
+            <h2>Our Portfolio</h2>
+            <div class="gallery">
+                <img src="img1.gallery.jpg" alt="Gallery Image 1">
+                <img src="img2.gallery.jpg" alt="Gallery Image 2">
+                <img src="img3.gallery.jpg" alt="Gallery Image 3">
+                <img src="img4.gallery.jpg" alt="Gallery Image 4">
+                <img src="img5.gallery.jpg" alt="Gallery Image 5">
+                <img src="img6.gallery.jpg" alt="Gallery Image 6">
+                <img src="img7.gallery.jpg" alt="Gallery Image 7">
+                <img src="img8.gallery.jpg" alt="Gallery Image 8">
+                <img src="img9.gallery.jpg" alt="Gallery Image 9">
+                <img src="img10.gallery.jpg" alt="Gallery Image 10">
+                <img src="img11.gallery.jpg" alt="Gallery Image 11">
+                <img src="img12.gallery.jpg" alt="Gallery Image 12">
+                <img src="img13.gallery.jpg" alt="Gallery Image 13">
+                <img src="img14.gallery.jpg" alt="Gallery Image 14">
+                <img src="img15.gallery.jpg" alt="Gallery Image 15">
+                <img src="img16.gallery.jpg" alt="Gallery Image 16">
+                <img src="img17.gallery.jpg" alt="Gallery Image 17">
+            </div>
+        </div>
+
+        <div class="post">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3623.0854415380422!2d30.150654675367637!3d-24.758259477996088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ1JzI5LjciUyAzMMKwMDknMTEuNiJF!5e0!3m2!1sen!2sza!4v1720296969895!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        Powered by Malongete Systems
+    </div>
+
+    <script>
+        const gallery = document.querySelector('.gallery');
+        let scrollAmount = 0;
+
+        function autoScroll() {
+            scrollAmount += 1;
+            if (scrollAmount >= gallery.scrollWidth - gallery.clientWidth) {
+                scrollAmount = 0;
+            }
+            gallery.scrollTo({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+
+        setInterval(autoScroll, 40);
+    </script>
+</body>
+</html>
